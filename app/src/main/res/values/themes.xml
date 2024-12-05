@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary color (for the Submit button) -->
+        <item name="colorPrimary">#FF5252</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary color -->
+        <item name="colorSecondary">#6200EE</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Text colors -->
+        <item name="android:textColor">#FF5252</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">#FFFFFF</item>
+    </style>
+
+    <!-- TextInputLayout Style -->
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">#FF5252</item>
+        <item name="android:textColorHint">#FF5252</item>
+        <item name="boxBackgroundColor">#FFFFFF</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+
+    <!-- Submit Button Style -->
+    <style name="SubmitButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">#FF5252</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
